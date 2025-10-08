@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { MenuSidebar } from "@/components/MenuSidebar";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
-import { AdmissionPopup } from "@/components/AdmissionPopup";
 import { BackgroundSlider } from "@/components/BackgroundSlider";
 import { ImageCarousel } from "@/components/ImageCarousel";
 import { Button } from "@/components/ui/button";
@@ -23,7 +22,6 @@ import library from "@/assets/library.jpg";
 
 const Index = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [showPopup, setShowPopup] = useState(true);
 
   const backgroundImages = [heroSchool, library, itProgram, sportsActivity];
 
@@ -33,7 +31,6 @@ const Index = () => {
       <Header onMenuOpen={() => setMenuOpen(true)} />
       <MenuSidebar isOpen={menuOpen} onClose={() => setMenuOpen(false)} />
       <WhatsAppButton />
-      <AdmissionPopup isVisible={showPopup} onClose={() => setShowPopup(false)} />
 
       <main className="relative">
         {/* Hero Section */}
