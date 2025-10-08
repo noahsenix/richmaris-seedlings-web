@@ -6,7 +6,7 @@ interface ImageCarouselProps {
   className?: string;
 }
 
-export const ImageCarousel = ({ images, interval = 2000, className = "" }: ImageCarouselProps) => {
+export const ImageCarousel = ({ images, interval = 4000, className = "" }: ImageCarouselProps) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {

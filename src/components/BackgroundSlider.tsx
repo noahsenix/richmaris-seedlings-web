@@ -5,7 +5,7 @@ interface BackgroundSliderProps {
   interval?: number;
 }
 
-export const BackgroundSlider = ({ images, interval = 5000 }: BackgroundSliderProps) => {
+export const BackgroundSlider = ({ images, interval = 4000 }: BackgroundSliderProps) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -22,7 +22,7 @@ export const BackgroundSlider = ({ images, interval = 5000 }: BackgroundSliderPr
         <div
           key={index}
           className={`absolute inset-0 transition-all duration-1000 ${
-            index === currentIndex ? "opacity-20" : "opacity-0"
+            index === currentIndex ? "opacity-70" : "opacity-0"
           }`}
         >
           <img
@@ -32,7 +32,7 @@ export const BackgroundSlider = ({ images, interval = 5000 }: BackgroundSliderPr
           />
         </div>
       ))}
-      <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/80 to-background" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/40 to-background/60" />
     </div>
   );
 };

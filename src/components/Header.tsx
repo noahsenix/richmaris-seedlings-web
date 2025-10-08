@@ -48,8 +48,8 @@ export const Header = ({ onMenuOpen }: HeaderProps) => {
                   <NavigationMenuTrigger className="text-primary-foreground bg-transparent hover:bg-primary-foreground/10">
                     ABOUT US
                   </NavigationMenuTrigger>
-                  <NavigationMenuContent>
-                    <ul className="grid w-[400px] gap-3 p-4 bg-popover">
+                  <NavigationMenuContent className="!left-0">
+                    <ul className="grid w-[400px] gap-3 p-4 bg-card/95 backdrop-blur-sm border border-border shadow-xl">
                       <li>
                         <NavigationMenuLink asChild>
                           <Link
@@ -128,8 +128,8 @@ export const Header = ({ onMenuOpen }: HeaderProps) => {
                   <NavigationMenuTrigger className="text-primary-foreground bg-transparent hover:bg-primary-foreground/10">
                     ADMISSIONS
                   </NavigationMenuTrigger>
-                  <NavigationMenuContent>
-                    <ul className="grid w-[300px] gap-3 p-4 bg-popover">
+                  <NavigationMenuContent className="!left-0">
+                    <ul className="grid w-[300px] gap-3 p-4 bg-card/95 backdrop-blur-sm border border-border shadow-xl">
                       <li>
                         <NavigationMenuLink asChild>
                           <Link
@@ -179,8 +179,8 @@ export const Header = ({ onMenuOpen }: HeaderProps) => {
                   <NavigationMenuTrigger className="text-primary-foreground bg-transparent hover:bg-primary-foreground/10">
                     NEWS & EVENTS
                   </NavigationMenuTrigger>
-                  <NavigationMenuContent>
-                    <ul className="grid w-[300px] gap-3 p-4 bg-popover">
+                  <NavigationMenuContent className="!left-0">
+                    <ul className="grid w-[300px] gap-3 p-4 bg-card/95 backdrop-blur-sm border border-border shadow-xl">
                       <li>
                         <NavigationMenuLink asChild>
                           <Link
@@ -219,8 +219,8 @@ export const Header = ({ onMenuOpen }: HeaderProps) => {
                   <NavigationMenuTrigger className="text-primary-foreground bg-transparent hover:bg-primary-foreground/10">
                     INFORMATION
                   </NavigationMenuTrigger>
-                  <NavigationMenuContent>
-                    <ul className="grid w-[300px] gap-3 p-4 bg-popover">
+                  <NavigationMenuContent className="!left-0">
+                    <ul className="grid w-[300px] gap-3 p-4 bg-card/95 backdrop-blur-sm border border-border shadow-xl">
                       <li>
                         <NavigationMenuLink asChild>
                           <Link
