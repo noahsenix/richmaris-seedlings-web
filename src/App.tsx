@@ -10,6 +10,24 @@ import PrimarySection from "./pages/sections/PrimarySection";
 import SecondarySection from "./pages/sections/SecondarySection";
 import Gallery from "./pages/Gallery";
 import OnlineApplication from "./pages/admissions/OnlineApplication";
+import HowToApply from "./pages/admissions/HowToApply";
+import FAQ from "./pages/admissions/FAQ";
+import Welcome from "./pages/about/Welcome";
+import History from "./pages/about/History";
+import Calendar from "./pages/about/Calendar";
+import Policies from "./pages/about/Policies";
+import Board from "./pages/about/Board";
+import Counseling from "./pages/about/Counseling";
+import Boarding from "./pages/about/Boarding";
+import LatestNews from "./pages/news-events/LatestNews";
+import Newsletter from "./pages/news-events/Newsletter";
+import Videos from "./pages/news-events/Videos";
+import Curriculum from "./pages/information/Curriculum";
+import ITPrograms from "./pages/information/ITPrograms";
+import Leadership from "./pages/information/Leadership";
+import Sports from "./pages/information/Sports";
+import Career from "./pages/information/Career";
+import VirtualTour from "./pages/information/VirtualTour";
 
 const queryClient = new QueryClient();
 
@@ -31,31 +49,31 @@ const App = () => (
           <Route path="/gallery" element={<Gallery />} />
           
           {/* Admissions */}
-          <Route path="/admissions/apply" element={<OnlineApplication />} />
-          <Route path="/admissions/faq" element={<OnlineApplication />} />
+          <Route path="/admissions/apply" element={<HowToApply />} />
+          <Route path="/admissions/faq" element={<FAQ />} />
           <Route path="/admissions/online-application" element={<OnlineApplication />} />
           
-          {/* About Pages - placeholder routes */}
-          <Route path="/about/welcome" element={<Index />} />
-          <Route path="/about/history" element={<Index />} />
-          <Route path="/about/calendar" element={<Index />} />
-          <Route path="/about/policies" element={<Index />} />
-          <Route path="/about/board" element={<Index />} />
-          <Route path="/about/counseling" element={<Index />} />
-          <Route path="/about/boarding" element={<Index />} />
+          {/* About Pages */}
+          <Route path="/about/welcome" element={<Welcome />} />
+          <Route path="/about/history" element={<History />} />
+          <Route path="/about/calendar" element={<Calendar />} />
+          <Route path="/about/policies" element={<Policies />} />
+          <Route path="/about/board" element={<Board />} />
+          <Route path="/about/counseling" element={<Counseling />} />
+          <Route path="/about/boarding" element={<Boarding />} />
           
-          {/* News & Events - placeholder routes */}
-          <Route path="/news-events/latest" element={<Index />} />
-          <Route path="/news-events/newsletter" element={<Index />} />
-          <Route path="/news-events/videos" element={<Index />} />
+          {/* News & Events */}
+          <Route path="/news-events/latest" element={<LatestNews />} />
+          <Route path="/news-events/newsletter" element={<Newsletter />} />
+          <Route path="/news-events/videos" element={<Videos />} />
           
-          {/* Information - placeholder routes */}
-          <Route path="/information/curriculum" element={<Index />} />
-          <Route path="/information/it-programs" element={<Index />} />
-          <Route path="/information/leadership" element={<Index />} />
-          <Route path="/information/sports" element={<Index />} />
-          <Route path="/information/career" element={<Index />} />
-          <Route path="/information/virtual-tour" element={<Index />} />
+          {/* Information */}
+          <Route path="/information/curriculum" element={<Curriculum />} />
+          <Route path="/information/it-programs" element={<ITPrograms />} />
+          <Route path="/information/leadership" element={<Leadership />} />
+          <Route path="/information/sports" element={<Sports />} />
+          <Route path="/information/career" element={<Career />} />
+          <Route path="/information/virtual-tour" element={<VirtualTour />} />
           
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
