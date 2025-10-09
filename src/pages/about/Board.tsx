@@ -5,7 +5,7 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { BackgroundSlider } from "@/components/BackgroundSlider";
 import { Card } from "@/components/ui/card";
 import heroSchool from "@/assets/hero-school.jpg";
-import boardMembers from "@/assets/board-members.jpg";
+import boardMembersImage from "@/assets/board-members.jpg";
 
 const Board = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -35,7 +35,7 @@ const Board = () => {
           </div>
 
           <Card className="p-8 bg-card/95 backdrop-blur-sm">
-            <img src={boardMembers} alt="Board Members" className="w-full rounded-lg shadow-lg mb-6" />
+            <img src={boardMembersImage} alt="Board Members" className="w-full rounded-lg shadow-lg mb-6" />
             <p className="text-foreground leading-relaxed mb-6">
               The Board of Governors provides strategic oversight and ensures the academy maintains the highest 
               standards of educational excellence, financial sustainability, and community engagement.
