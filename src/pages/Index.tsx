@@ -37,12 +37,13 @@ const Index = () => {
         <section className="py-20 px-4 animate-fade-in">
           <div className="container mx-auto text-center">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 text-primary">
-              Welcome to Greater Seeds Richmaris Academy
+              Greater Seeds Richmaris Academy
             </h1>
+            <h2 className="text-3xl md:text-4xl font-semibold mb-6 text-accent">
+              Nurtured to Greatness
+            </h2>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              A beacon of excellence in education, where young minds are nurtured to become
-              tomorrow's leaders. We provide comprehensive education that combines academic
-              excellence with character development, preparing students for a bright future.
+              Quality Nursery, Primary & Secondary education in Kuje, Abuja — where curiosity meets character.
             </p>
           </div>
         </section>
@@ -55,10 +56,10 @@ const Index = () => {
                 <CardContent className="pt-6">
                   <h3 className="text-2xl font-bold mb-4 text-primary">Who We Are</h3>
                   <p className="text-muted-foreground">
-                    Greater Seeds Richmaris Academy is a premier educational institution dedicated
-                    to providing quality education from nursery through secondary school. We believe
-                    in holistic development that encompasses academic excellence, moral values, and
-                    practical skills.
+                    Greater Seeds Richmaris Academy (GSRA) is a private Nursery, Primary and Secondary school located in Kuje, Abuja. 
+                    We are dedicated to nurturing young learners through a balanced curriculum that promotes academic excellence, 
+                    moral values and creative development. Our classrooms are student-centered, our teachers are caring, and we partner 
+                    with parents so every child can thrive.
                   </p>
                 </CardContent>
               </Card>
@@ -67,9 +68,7 @@ const Index = () => {
                 <CardContent className="pt-6">
                   <h3 className="text-2xl font-bold mb-4 text-primary">Our Vision</h3>
                   <p className="text-muted-foreground">
-                    To be the leading educational institution that shapes future leaders through
-                    innovative teaching, character building, and a commitment to excellence. We
-                    envision a community where every student reaches their full potential.
+                    To be a leading community school in Kuje known for academic rigour, character formation and strong parent partnerships.
                   </p>
                 </CardContent>
               </Card>
@@ -78,11 +77,31 @@ const Index = () => {
                 <CardContent className="pt-6">
                   <h3 className="text-2xl font-bold mb-4 text-primary">Our Mission</h3>
                   <p className="text-muted-foreground">
-                    To provide comprehensive, world-class education that develops critical thinking,
-                    creativity, and strong moral character. We are committed to creating a safe,
-                    nurturing environment where students thrive academically and personally.
+                    To provide quality foundational and secondary education that develops confident, responsible and curious students ready for the future.
                   </p>
                 </CardContent>
+              </Card>
+            </div>
+          </div>
+        </section>
+
+        {/* Motto & School Pledge Section */}
+        <section className="py-16 px-4 bg-accent/10 backdrop-blur animate-slide-up">
+          <div className="container mx-auto">
+            <div className="max-w-4xl mx-auto space-y-8">
+              <Card className="bg-card/80 backdrop-blur text-center p-8">
+                <h3 className="text-2xl font-bold mb-4 text-primary">Our Motto</h3>
+                <p className="text-4xl md:text-5xl font-bold text-accent">
+                  Nurtured to Greatness
+                </p>
+              </Card>
+
+              <Card className="bg-card/80 backdrop-blur p-8">
+                <h3 className="text-2xl font-bold mb-4 text-primary text-center">School Pledge</h3>
+                <blockquote className="text-lg text-muted-foreground italic leading-relaxed text-center">
+                  "I pledge to uphold the image of the school at all times. I will speak right, respect others and use my time wisely. 
+                  I will conduct myself in a manner that will not demean the school. So help me God."
+                </blockquote>
               </Card>
             </div>
           </div>
@@ -195,8 +214,7 @@ const Index = () => {
                   <CardContent className="pt-6">
                     <h3 className="text-2xl font-bold mb-4 text-primary">Nursery School</h3>
                     <p className="text-muted-foreground mb-4">
-                      Early childhood education with a focus on play-based learning, social skills,
-                      and foundational development for ages 3-5.
+                      Early years program — play-based learning, language and motor skills development.
                     </p>
                     <span className="text-accent font-semibold group-hover:underline">
                       Read More →
@@ -216,8 +234,7 @@ const Index = () => {
                   <CardContent className="pt-6">
                     <h3 className="text-2xl font-bold mb-4 text-primary">Primary School</h3>
                     <p className="text-muted-foreground mb-4">
-                      Comprehensive curriculum covering core subjects with emphasis on literacy,
-                      numeracy, and critical thinking for ages 6-11.
+                      Primary 1–6 — literacy, numeracy, basic STEM, arts and moral instruction.
                     </p>
                     <span className="text-accent font-semibold group-hover:underline">
                       Read More →
@@ -237,8 +254,7 @@ const Index = () => {
                   <CardContent className="pt-6">
                     <h3 className="text-2xl font-bold mb-4 text-primary">Secondary School</h3>
                     <p className="text-muted-foreground mb-4">
-                      Advanced academic programs preparing students for higher education and future
-                      careers, with focus on leadership and excellence for ages 12-17.
+                      Junior & Senior secondary curriculum focused on strong basics, exam preparation and life skills.
                     </p>
                     <span className="text-accent font-semibold group-hover:underline">
                       Read More →
@@ -415,14 +431,17 @@ const Index = () => {
             <div>
               <h3 className="text-xl font-bold mb-4">Greater Seeds Richmaris Academy</h3>
               <p className="text-sm opacity-90">
-                Nurturing excellence, building character, shaping futures.
+                Nurtured to Greatness.
               </p>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
-              <p className="text-sm opacity-90 mb-2">Phone: +2348058483524</p>
+              <p className="text-sm opacity-90 mb-2">Phone: 08137854567 • 08033100284 • 08152909415</p>
+              <p className="text-sm opacity-90 mb-2">
+                Facebook: facebook.com/greaterseedsrichmarisacademy
+              </p>
               <p className="text-sm opacity-90">
-                Location: Opposite Airport Guest Inn, Off GGSSS Road, Kuje, Abuja
+                Location: Opposite AirpyGuest Inn, Along GGSSS road, Kuje, Abuja, Nigeria
               </p>
             </div>
             <div>

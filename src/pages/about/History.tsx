@@ -51,15 +51,15 @@ const History = () => {
               <div className="space-y-4 text-foreground">
                 <h2 className="text-2xl font-bold">Our Journey</h2>
                 <p className="leading-relaxed">
-                  Greater Seeds Richmaris Academy was established in 2010 with a vision to provide 
-                  quality, affordable education to the children of Kuje, Abuja, and surrounding communities. 
-                  What started as a small nursery school with just 45 students has grown into a thriving 
-                  educational institution serving over 800 students from nursery through secondary school.
+                  Greater Seeds Richmaris Academy was established with a vision to provide quality, affordable education 
+                  to the children of Kuje, Abuja, and surrounding communities. We are a private Nursery, Primary and 
+                  Secondary school dedicated to nurturing young learners through a balanced curriculum that promotes 
+                  academic excellence, moral values and creative development.
                 </p>
                 <p className="leading-relaxed">
-                  Our founders, driven by a passion for educational excellence and character development, 
-                  established the academy on the principles of academic rigor, moral integrity, and 
-                  community service. These values continue to guide us today.
+                  Our founders established the academy on the principles of academic rigour, character formation, and 
+                  strong parent partnerships. These values continue to guide us as we work to be a leading community 
+                  school in Kuje.
                 </p>
               </div>
             </div>
@@ -95,17 +95,15 @@ const History = () => {
           <Card className="p-8 bg-card/95 backdrop-blur-sm">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="space-y-4 text-foreground">
-                <h2 className="text-2xl font-bold">Academic Excellence</h2>
+                <h2 className="text-2xl font-bold">Our Programs</h2>
                 <p className="leading-relaxed">
-                  Throughout our history, we have maintained a commitment to academic excellence. 
-                  Our students consistently achieve outstanding results in national examinations, 
-                  with many going on to prestigious universities both in Nigeria and abroad.
+                  Throughout our journey, we have maintained a commitment to quality education at all levels:
                 </p>
                 <ul className="space-y-2 list-disc list-inside">
-                  <li>100% WAEC pass rate for 8 consecutive years</li>
-                  <li>Over 500 alumni in various fields of excellence</li>
-                  <li>Multiple awards for academic and sports achievements</li>
-                  <li>Strong partnerships with international educational bodies</li>
+                  <li><strong>Nursery:</strong> Early years program — play-based learning, language and motor skills development</li>
+                  <li><strong>Primary:</strong> Primary 1–6 — literacy, numeracy, basic STEM, arts and moral instruction</li>
+                  <li><strong>Secondary:</strong> Junior & Senior secondary curriculum focused on strong basics, exam preparation and life skills</li>
+                  <li><strong>After-school activities:</strong> Reading club, basic computer lessons, sports and cultural events</li>
                 </ul>
               </div>
               <div>

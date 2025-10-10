@@ -25,6 +25,9 @@ const Welcome = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-foreground">
               Welcome to Greater Seeds Richmaris Academy
             </h1>
+            <h2 className="text-2xl md:text-3xl font-semibold text-accent mt-2">
+              Nurtured to Greatness
+            </h2>
             <p className="text-xl text-muted-foreground">
               A Message from Our Principal
             </p>
@@ -49,60 +52,61 @@ const Welcome = () => {
                   Dear Parents and Prospective Students,
                 </p>
                 <p className="leading-relaxed">
-                  It is with great pleasure and enthusiasm that I welcome you to Greater Seeds Richmaris Academy. 
-                  As the Principal, I am honored to lead an institution that has been committed to academic 
-                  excellence, character development, and holistic education for many years.
+                  Welcome to Greater Seeds Richmaris Academy (GSRA) — a private Nursery, Primary and Secondary school 
+                  located in Kuje, Abuja. We are dedicated to nurturing young learners through a balanced curriculum 
+                  that promotes academic excellence, moral values and creative development.
                 </p>
                 <p className="leading-relaxed">
-                  At Greater Seeds Richmaris Academy, we believe that every child has unique talents and potential 
-                  waiting to be discovered and nurtured. Our dedicated team of qualified educators works tirelessly 
-                  to provide a stimulating learning environment where students can thrive academically, socially, 
-                  and personally.
+                  Our classrooms are student-centered, our teachers are caring, and we partner with parents so every 
+                  child can thrive. We don't just educate children—we partner with you to nurture, guide, and inspire 
+                  them to become the best versions of themselves.
                 </p>
                 <p className="leading-relaxed">
-                  We offer a comprehensive curriculum from nursery through secondary school, ensuring continuity 
-                  in education and allowing us to watch your children grow and develop throughout their formative years. 
-                  Our modern facilities, innovative teaching methods, and focus on character building prepare our 
-                  students not just for examinations, but for life.
+                  At GSRA, we provide quality foundational and secondary education that develops confident, responsible 
+                  and curious students ready for the future. Our dedicated team of experienced educators provides individual 
+                  attention to each student, ensuring they develop academically, socially, and emotionally.
                 </p>
                 <p className="leading-relaxed">
-                  We maintain strong partnerships with parents, recognizing that education is most effective when 
-                  home and school work together. Your child's success is our priority, and we are committed to 
-                  providing them with every opportunity to excel.
-                </p>
-                <p className="leading-relaxed">
-                  I invite you to explore our academy, meet our staff, and discover the Greater Seeds difference. 
-                  Together, we can nurture the seeds of greatness in your child.
+                  We invite you to visit our campus, meet our staff, and experience firsthand the warmth and excellence 
+                  that define Greater Seeds Richmaris Academy.
                 </p>
                 <p className="font-semibold mt-6">
-                  Warm regards,<br />
-                  Dr. Emmanuel Adebayo<br />
-                  Principal
+                  <strong>Contact us:</strong><br />
+                  Phone: 08137854567 • 08033100284 • 08152909415<br />
+                  Facebook: facebook.com/greaterseedsrichmarisacademy
                 </p>
               </div>
             </div>
           </Card>
 
           <Card className="p-8 bg-card/95 backdrop-blur-sm">
-            <h2 className="text-2xl font-bold mb-4 text-foreground">Our Educational Philosophy</h2>
+            <h2 className="text-2xl font-bold mb-4 text-foreground">Our School Motto & Pledge</h2>
             <div className="space-y-4 text-foreground">
-              <p className="leading-relaxed">
-                We believe in developing the whole child - academically, emotionally, socially, and physically. 
-                Our approach combines rigorous academic standards with character education, ensuring our students 
-                become not only knowledgeable but also compassionate, ethical, and responsible citizens.
-              </p>
+              <div className="p-6 bg-accent/20 rounded-lg">
+                <h3 className="text-xl font-bold mb-2">Motto</h3>
+                <p className="text-2xl font-bold text-primary">Nurtured to Greatness</p>
+              </div>
+              
+              <div className="p-6 bg-accent/20 rounded-lg">
+                <h3 className="text-xl font-bold mb-3">School Pledge</h3>
+                <p className="italic leading-relaxed">
+                  "I pledge to uphold the image of the school at all times. I will speak right, respect others and use my time wisely. 
+                  I will conduct myself in a manner that will not demean the school. So help me God."
+                </p>
+              </div>
+
               <div className="grid md:grid-cols-3 gap-4 mt-6">
                 <div className="p-4 bg-accent/50 rounded-lg">
-                  <h3 className="font-bold mb-2">Excellence</h3>
-                  <p className="text-sm">Striving for the highest standards in all we do</p>
+                  <h3 className="font-bold mb-2">Academic Excellence</h3>
+                  <p className="text-sm">Strong basics, exam preparation and lifelong learning</p>
                 </div>
                 <div className="p-4 bg-accent/50 rounded-lg">
-                  <h3 className="font-bold mb-2">Integrity</h3>
-                  <p className="text-sm">Building character through honesty and moral values</p>
+                  <h3 className="font-bold mb-2">Character Formation</h3>
+                  <p className="text-sm">Building moral values and respectful behavior</p>
                 </div>
                 <div className="p-4 bg-accent/50 rounded-lg">
-                  <h3 className="font-bold mb-2">Innovation</h3>
-                  <p className="text-sm">Embracing new methods and technologies in education</p>
+                  <h3 className="font-bold mb-2">Parent Partnership</h3>
+                  <p className="text-sm">Working together for every child's success</p>
                 </div>
               </div>
             </div>

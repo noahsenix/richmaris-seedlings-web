@@ -62,7 +62,7 @@ export const MenuSidebar = ({ isOpen, onClose }: MenuSidebarProps) => {
               </div>
             </div>
             <p className="text-sm text-primary-foreground/90 mt-2">
-              Excellence in Education
+              Nurtured to Greatness
             </p>
           </div>
 
@@ -74,9 +74,9 @@ export const MenuSidebar = ({ isOpen, onClose }: MenuSidebarProps) => {
                 About Us
               </h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                Greater Seeds Richmaris Academy is committed to providing quality education
-                that nurtures academic excellence, character development, and lifelong learning
-                for students from nursery to secondary level.
+                Greater Seeds Richmaris Academy (GSRA) is a private Nursery, Primary and Secondary school 
+                located in Kuje, Abuja. We are dedicated to nurturing young learners through a balanced 
+                curriculum that promotes academic excellence, moral values and creative development.
               </p>
             </div>
 
@@ -102,9 +102,17 @@ export const MenuSidebar = ({ isOpen, onClose }: MenuSidebarProps) => {
                   <Phone className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                   <div>
                     <p className="font-medium">Phone</p>
-                    <a href="tel:+2348058483524" className="text-muted-foreground hover:text-primary transition-colors">
-                      +234 805 848 3524
-                    </a>
+                    <div className="text-muted-foreground space-y-1">
+                      <a href="tel:+2348137854567" className="block hover:text-primary transition-colors">
+                        08137854567
+                      </a>
+                      <a href="tel:+2348033100284" className="block hover:text-primary transition-colors">
+                        08033100284
+                      </a>
+                      <a href="tel:+2348152909415" className="block hover:text-primary transition-colors">
+                        08152909415
+                      </a>
+                    </div>
                   </div>
                 </div>
                 <div className="flex items-start gap-3 text-sm">
@@ -112,9 +120,23 @@ export const MenuSidebar = ({ isOpen, onClose }: MenuSidebarProps) => {
                   <div>
                     <p className="font-medium">Location</p>
                     <p className="text-muted-foreground">
-                      Opposite Airport Guest Inn,<br />
-                      Off GGSSS Road, Kuje, Abuja
+                      Opposite AirpyGuest Inn,<br />
+                      Along GGSSS road, Kuje, Abuja, Nigeria
                     </p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3 text-sm">
+                  <Mail className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                  <div>
+                    <p className="font-medium">Facebook</p>
+                    <a 
+                      href="https://facebook.com/greaterseedsrichmarisacademy" 
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      facebook.com/greaterseedsrichmarisacademy
+                    </a>
                   </div>
                 </div>
               </div>
